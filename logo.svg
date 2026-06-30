@@ -1,0 +1,34 @@
+<svg viewBox="0 0 560 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quantivo Security Services logo">
+  <defs>
+    <linearGradient id="shieldFill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2740"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Shield mark -->
+  <g transform="translate(10,10)">
+    <path d="M90,4 L168,32 C168,32 170,110 168,128 C160,166 122,190 90,196 C58,190 20,166 12,128 C10,110 12,32 12,32 Z"
+          fill="url(#shieldFill)" stroke="#D98E2C" stroke-width="3"/>
+
+    <!-- radar sweep arcs -->
+    <g opacity="0.55" stroke="#D98E2C" stroke-width="2" fill="none">
+      <path d="M40,60 A60,60 0 0,1 140,60" stroke-dasharray="4 6"/>
+      <path d="M55,78 A42,42 0 0,1 125,78" stroke-dasharray="3 5"/>
+    </g>
+
+    <!-- radar sweep needle -->
+    <line x1="90" y1="100" x2="138" y2="58" stroke="#D98E2C" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="90" cy="100" r="5" fill="#D98E2C"/>
+
+    <!-- Q monogram -->
+    <circle cx="90" cy="100" r="38" fill="none" stroke="#F2EFE9" stroke-width="7"/>
+    <line x1="112" y1="124" x2="138" y2="150" stroke="#F2EFE9" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(200,72)" font-family="'Space Grotesk', 'Arial Black', sans-serif">
+    <text x="0" y="0" font-size="40" font-weight="700" fill="#0B1220" letter-spacing="1">QUANTIVO</text>
+    <text x="0" y="34" font-size="16" font-weight="500" fill="#B23A2E" letter-spacing="5">SECURITY SERVICES LTD</text>
+  </g>
+</svg>
